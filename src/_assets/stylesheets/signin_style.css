@@ -1,0 +1,155 @@
+
+/* font */
+/*
+@font-face {
+  font-family: customFont1;
+  src: url(styles/font/Ailerons.ttf);
+}
+*/
+/*header stuuf*/
+
+#title
+{
+  color: red;
+  /* font-family: customFont1, "Times New Roman"; */
+  font-family: 'Spicy Rice', cursive ,"Times New Roman" ;
+  font-size: 45px;
+  font-weight: bold;
+  margin-left: 20px;
+
+
+}
+
+header{
+  background-color: black;
+  width: 100%;
+  position: static;
+}
+
+body
+{
+  background-color: white;
+
+  margin: 0px;
+}
+
+
+
+/*  header stuff  */
+
+/*  Sign in stuff */
+
+#container
+{
+  background-image: url("src/_assets/images/signin/signin3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#container:hover
+{
+  background-image: url("_assets/images/signin/signin1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+
+}
+
+
+.signin
+{
+  margin-top: 10%;
+  margin-left: 38%;
+  margin-bottom: 10%;
+  margin-right: 38%;
+  width:300px;
+  height:300px;
+  border: 1px solid black;
+  background-color: grey;
+  opacity: 0.95;
+
+
+}
+
+.signin div
+{
+  margin-left: 35px;
+  margin-top: 20px;
+}
+
+.signin p{
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.signin input
+{
+  height: 20px;
+  width: 220px;
+
+}
+
+.signin h2
+{
+  margin-left: 75px;
+}
+
+.signin h5
+{
+
+  margin-left: 145px;
+}
+
+#signin-entr
+{
+  color: white;
+  background-color: #f31414;
+  font-family: Cambria;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 4px;
+  border:red;
+  height: 35px;
+  width: 225px;
+}
+
+
+a:link , a:visited
+{
+  color: #fff7ff;
+}
+
+
+
+/*
+
+.signin:hover
+{
+    -webkit-transform: scale(1.2);
+    transition: all 0.5s ease;
+}
+
+*/
+
+/*media*/
+
+@media (max-width: 550px) {
+.signin
+{
+
+  margin-left:20%
+
+}
+}
+
+
+
+
+/* footer*/
+footer
+{
+  text-align: center;
+  background-color: white;
+  margin: 0px;
+}
