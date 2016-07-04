@@ -1,10 +1,10 @@
-/* font */
+/* font
 
 @font-face {
     font-family: customFont1;
     src: url(styles/font/Ailerons.ttf);
 }
-
+*/
 /*header stuuf*/
 
 #title
@@ -145,7 +145,7 @@ h2
 
 .layout_1 div:hover .desc
 {
-    display: inline;
+    display: block;
     position: absolute;
 }
 
@@ -197,7 +197,7 @@ h2
 
 .layout_2 div:hover .desc
 {
-    display: inline;
+    display: block;
     position: absolute;
 }
 
